@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\tests">
+      <UniqueIdentifier>{bdb851db-445a-4ad2-8105-9fa98f4a0986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sequential-algorithms">
+      <UniqueIdentifier>{1e137740-baab-4fa1-a784-2c34106ef6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\parallel-algorithms">
+      <UniqueIdentifier>{b5d37e2a-1e5a-47c3-b7b6-4762b520458f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\parallel-algorithms">
+      <UniqueIdentifier>{a2489a0b-c557-459b-a2dc-71ab36892631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\benchmark">
+      <UniqueIdentifier>{a4ecc8ca-61af-4950-93b8-d088ba189061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\benchmark">
+      <UniqueIdentifier>{2402c391-0ee2-4c57-aa87-831e69021688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lab3a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parallel-algorithms\thread_number.cpp">
+      <Filter>Source Files\parallel-algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="benchmark\my_file_writer.cpp">
+      <Filter>Source Files\benchmark</Filter>
+    </ClCompile>
+    <ClCompile Include="benchmark\my_timer.cpp">
+      <Filter>Source Files\benchmark</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests\doctest.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential-algorithms\all_sorts.h">
+      <Filter>Header Files\sequential-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential-algorithms\merge_sort.h">
+      <Filter>Header Files\sequential-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential-algorithms\quick_sort.h">
+      <Filter>Header Files\sequential-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential-algorithms\strassen_multiplication.h">
+      <Filter>Header Files\sequential-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\testing_matrix.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential-algorithms\simple_multiplication.h">
+      <Filter>Header Files\sequential-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\testing_multiplication.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\testing_sort_algorithms.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries_and_namespaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="my_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential-algorithms\matrix_multiplication.h">
+      <Filter>Header Files\sequential-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\thread_number.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\all_sorts.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\merge_sort.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\quick_sort.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\matrix_multiplication.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\simple_multiplication.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\strassen_multiplication.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="benchmark\benchmark_mode.h">
+      <Filter>Header Files\benchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="benchmark\my_file_writer.h">
+      <Filter>Header Files\benchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="benchmark\my_timer.h">
+      <Filter>Header Files\benchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_parts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential-algorithms\submatrices.h">
+      <Filter>Header Files\sequential-algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="addition_matrix_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel-algorithms\submatrices.h">
+      <Filter>Header Files\parallel-algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

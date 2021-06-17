@@ -1,0 +1,36 @@
+Size=2 {
+algorithm=sequential simple multiplication time=0.000235s
+algorithm=parallel simple multiplication   time=0.003498s
+algorithm=sequential strassen multiplication time=0.000364s
+algorithm=parallel strassen multiplication time=0.011715s
+}
+Size=4 {
+algorithm=sequential simple multiplication time=0.001918s
+algorithm=parallel simple multiplication   time=0.023695s
+algorithm=sequential strassen multiplication time=0.002731s
+algorithm=parallel strassen multiplication time=0.020045s
+}
+Size=8 {
+algorithm=sequential simple multiplication time=0.014896s
+algorithm=parallel simple multiplication   time=0.096864s
+algorithm=sequential strassen multiplication time=0.020167s
+algorithm=parallel strassen multiplication time=0.087817s
+}
+Size=16 {
+algorithm=sequential simple multiplication time=0.120337s
+algorithm=parallel simple multiplication   time=0.396988s
+algorithm=sequential strassen multiplication time=0.138719s
+algorithm=parallel strassen multiplication time=0.279313s
+}
+Size=32 {
+algorithm=sequential simple multiplication time=0.961599s
+algorithm=parallel simple multiplication   time=2.403275s
+algorithm=sequential strassen multiplication time=0.958608s
+algorithm=parallel strassen multiplication time=1.381121s
+}
+Size=64 {
+algorithm=sequential simple multiplication time=7.682515s
+algorithm=parallel simple multiplication   time=18.331949s
+algorithm=sequential strassen multiplication time=6.688775s
+algorithm=parallel strassen multiplication time=7.713871s
+}
